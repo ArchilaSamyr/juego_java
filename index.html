@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Menú de Juegos</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #182235;
+            color: white;
+            margin: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #24344f;
+            padding: 25px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            color: #d1d9e6;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        .juegos {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .tarjeta {
+            background-color: #263750;
+            padding: 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .tarjeta:hover {
+            background-color: #354b6b;
+        }
+
+        .icono {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .tarjeta h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .tarjeta p {
+            font-size: 14px;
+            color: #d1d9e6;
+        }
+
+        footer {
+            background-color: #24344f;
+            padding: 15px;
+            margin-top: 30px;
+            color: #d1d9e6;
+        }
+
+        @media (max-width: 500px) {
+            .juegos {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+            }
+
+            .tarjeta {
+                padding: 15px 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🎮 MENÚ DE JUEGOS 🎮</h1>
+        <p>Bienvenido a nuestra colección de videojuegos</p>
+    </header>
+
+    <h2>Selecciona un juego</h2>
+
+    <div class="juegos">
+
+        <!-- 1. 2048 -->
+        <a class="tarjeta" href="2048_ver2-main/index.html">
+            <div class="icono">🔢</div>
+            <h3>2048</h3>
+            <p>Combina números y alcanza el objetivo.</p>
+        </a>
+
+        <!-- 2. Buscaminas -->
+        <a class="tarjeta" href="buscaminas_yo/index.html">
+            <div class="icono">💣</div>
+            <h3>Buscaminas</h3>
+            <p>Encuentra las casillas seguras.</p>
+        </a>
+
+        <!-- 3. Flappy Bird -->
+        <a class="tarjeta" href="Flappy-Bird-main/index.html">
+            <div class="icono">🐦</div>
+            <h3>Flappy Bird</h3>
+            <p>Vuela y supera los obstáculos.</p>
+        </a>
+
+        <!-- 4. Frogger -->
+        <a class="tarjeta" href="frogger%20modificado/index.html">
+            <div class="icono">🐸</div>
+            <h3>Frogger</h3>
+            <p>Ayuda a la rana a superar los obstáculos.</p>
+        </a>
+
+        <!-- 5. Game JavaScript -->
+        <a class="tarjeta" href="Game_JavasCript-main/index.html">
+            <div class="icono">🎮</div>
+            <h3>Game JavaScript</h3>
+            <p>Disfruta de este juego interactivo.</p>
+        </a>
+
+        <!-- 6. Tetris -->
+        <a class="tarjeta" href="javascript_tetris-main/index.html">
+            <div class="icono">🧩</div>
+            <h3>Tetris</h3>
+            <p>Organiza las piezas y suma puntos.</p>
+        </a>
+
+        <!-- 7. JavaScript Game -->
+        <a class="tarjeta" href="javascriptgame-main/index.html">
+            <div class="icono">🕹️</div>
+            <h3>JavaScript Game</h3>
+            <p>Diviértete con este juego.</p>
+        </a>
+
+        <!-- 8. Juegitos HTML -->
+        <a class="tarjeta" href="juegitos_html-main/index.html">
+            <div class="icono">🌐</div>
+            <h3>Juegitos HTML</h3>
+            <p>Juegos creados con HTML.</p>
+        </a>
+
+        <!-- 9. Lalo Juego -->
+        <a class="tarjeta" href="Lalo_juego/index.html">
+            <div class="icono">⭐</div>
+            <h3>Lalo Juego</h3>
+            <p>Descubre este videojuego.</p>
+        </a>
+
+        <!-- 10. Mi Juego -->
+        <a class="tarjeta" href="mi_juego-main/index.html">
+            <div class="icono">🎯</div>
+            <h3>Mi Juego</h3>
+            <p>Un juego creado por un compañero.</p>
+        </a>
+
+        <!-- 11. Piedra PT Juego -->
+        <a class="tarjeta" href="Piedra_pt_juego/index.html">
+            <div class="icono">✊</div>
+            <h3>Piedra PT Juego</h3>
+            <p>Disfruta de este reto.</p>
+        </a>
+
+        <!-- 12. Pong V2 -->
+        <a class="tarjeta" href="pongV2/index.html">
+            <div class="icono">🏓</div>
+            <h3>Pong V2</h3>
+            <p>Juega al clásico juego de pelota.</p>
+        </a>
+
+        <!-- 13. Seahorse War -->
+        <a class="tarjeta" href="Seahorse%20War/index.html">
+            <div class="icono">🌊</div>
+            <h3>Seahorse War</h3>
+            <p>Una aventura en el océano.</p>
+        </a>
+
+        <!-- 14. Sudoku Versión 2 -->
+        <a class="tarjeta" href="Sudoku%20Version%202/index.html">
+            <div class="icono">🔢</div>
+            <h3>Sudoku Versión 2</h3>
+            <p>Resuelve el desafío de números.</p>
+        </a>
+
+        <!-- 15. V2 -->
+        <a class="tarjeta" href="V2/index.html">
+            <div class="icono">🔥</div>
+            <h3>V2</h3>
+            <p>Descubre esta versión del juego.</p>
+        </a>
+
+        <!-- 16. Versión 1.1 -->
+        <a class="tarjeta" href="Version%201.1/index.html">
+            <div class="icono">🎲</div>
+            <h3>Versión 1.1</h3>
+            <p>Explora esta versión del proyecto.</p>
+        </a>
+
+        <!-- 17. Versión 2 -->
+        <a class="tarjeta" href="version_2/index.html">
+            <div class="icono">🚀</div>
+            <h3>Versión 2</h3>
+            <p>Una nueva versión del juego.</p>
+        </a>
+
+        <!-- 18. Versión Modificada -->
+        <a class="tarjeta" href="version_modificada/index.html">
+            <div class="icono">🎨</div>
+            <h3>Versión Modificada</h3>
+            <p>Una versión personalizada.</p>
+        </a>
+
+        <!-- 19. Versión 2 Juego -->
+        <a class="tarjeta" href="version2_juego-main/index.html">
+            <div class="icono">🏆</div>
+            <h3>Versión 2 Juego</h3>
+            <p>Disfruta de esta segunda versión.</p>
+        </a>
+
+    </div>
+
+    <footer>
+        <p>🎮 Menú de Juegos | Todos los juegos en un solo lugar</p>
+    </footer>
+
+</body>
+</html>
